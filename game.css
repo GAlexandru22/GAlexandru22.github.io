@@ -6,38 +6,23 @@ body{
 }
 .cutie{
     
-    display: -webkit-inline-box;
-    
-    display: -ms-inline-flexbox;
-    
     display: inline-flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     
 }
 .upgrades{
     margin-top: 50px;
     text-align: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-margin-after: 5px;
-            margin-block-end: 5px;
-    -webkit-margin-before: 5px;
-            margin-block-start: 5px;
+    flex-wrap: nowrap;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
 }
 .item-1{
     background: rgb(255, 175, 26);
     margin-top: 50px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     width: 300px;
     height: 20%;
     border-style: solid;
@@ -56,9 +41,7 @@ body{
 .price{
     margin-top: 8px;
     height: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
     margin-left: 50px;
     margin-bottom: 0%;
@@ -70,11 +53,8 @@ body{
 .item-2{
     background: rgb(114, 212, 3);
     margin-top: 50px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     width: 300px;
     height: 20%;
     border-style: solid;
@@ -82,11 +62,7 @@ body{
 }
 
 .right_game{
-    width:-webkit-max-content;
-    width:-moz-max-content;
     width:max-content;
-    height: -webkit-max-content;
-    height: -moz-max-content;
     height: max-content;
 }
 .b1{
@@ -127,11 +103,8 @@ body{
 .item-3{
     background: rgb(231, 12, 77);
     margin-top: 50px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     width: 300px;
     height: 60px;
     border-style: solid;
@@ -172,8 +145,6 @@ a.buton3{
     
 }
 .score{
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     width: 400px;
     
@@ -228,8 +199,6 @@ footer{
         text-align: center;
     }
     .score{
-        width: -webkit-max-content;
-        width: -moz-max-content;
         width: max-content;    
     }
     a.btn_rosu{
