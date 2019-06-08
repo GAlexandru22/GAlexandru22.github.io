@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Epic Gamers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" type="image/x-icon" href="butonsite.png" />
+</head>
+<body>
+  
+  <nav class="acasa topnav" id="TopNav">
+    <div class="topnav" id="myTopnav">
+      <div class="container" id="navContainer">
+      <div class="space-between" id="navSpacing">
+      
+      <a href="index.html" class="active">Acasa</a>
+    
+    
+      <a href="game.html" class="red">Game</a>
+    
+    
+      <a href="About_us.html">Despre noi</a>
+    
+   </div>
+  </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"><img src="hamburger.svg" alt=""></i>
+      </a>
+    </div>
+  </nav>
+  
+    <main class="game_page maijos">   
+        <div class="left_game">
+        <p class="score1" id="buttonspersecond">You are gaining 0 Buttons per/s</p>
+        <div class="center">
+        <div class="score">
+          You got:
+          <input type="text" id="text" disabled style= text-align:center value=0>
+         
+           Buttons
+          </div>
+        </div>
+          
+          <div class="centertelefon">
+        <a class="btn_rosu" href=# onclick="add()"><img src="butonsite.png" id="button_img"></a>
+      </div>
+        
+       
+        
+        </div>
+        <div class="cutie">
+        <div class="right_game">
+            <a class="buton1" href="#" onClick="buyMultiplier()">
+          <div class="item item-1">
+        <p class="upgrades"id="ammountMultiplier">Multiplier Upgrade x2</p>
+       <div class="b1"> <button><span id="ammountMultiplier2">x2</span></button> </div>
+        <p class="price"id="costMultiplier">200 Buttons</p>
+      </div>
+    </a>
+        <p class="upgrades counter"id="currentMultiplier">Your current Multiplier is x1</p>
+        <br>
+        <a class="buton2" href="#" onClick="buyAutoClick()">
+       <div class="item item-2">
+        <p class="upgrades">Auto clicker Upgrade</p>
+        <div class="b2"><button><img src=mouse-hover.png width="30px" height="40px"></button> </div>
+        <p class="price"id="costAutoClick">12 Buttons</p>
+      </div>
+      </a>
+        <p class="owning counter"id="ammountAutoClick">You Own 0 Auto Clickers</p>
+      
+        <br>
+        <a class="buton3"href="#" onClick="buyFactory()">
+        <div class="item item-3">
+        <p class="upgrades">Factory Upgrade</p>
+        <div class="b3"><button><img src="factory.png" width="50px" height="50px"></button> </div>
+        <p class="price"id="costFactory">15 Buttons</p>
+      </div>
+      </a>
+
+
+        <p class="owning counter"id="ammountFactories">You Own 0 Factories</p>
+        
+      
+        </div>
+      </div>
+    </main>
+
+        
+    <footer class="footer">
+      <div class="center">
+      <span class="footer-text">Pentru a raporta eventuale bug-uri si pentru support tehnic: Email:TechSuppEpicGamers@gmail.com Telefon:0766402166</span>
+    </div>
+      <div class="center">
+      <span class="trademark">© 2019, Epic Gamers, Inc. All rights reserved.</span>
+      </div>
+    </footer>
+    
+     <script src="jquery-3.3.1.slim.min.js"></script>   
+    <script src="index.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

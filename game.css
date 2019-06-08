@@ -1,0 +1,260 @@
+body{
+    height: 100%;
+}
+.body{
+    margin-top: 80px;
+}
+.cutie{
+    
+    display: -webkit-inline-box;
+    
+    display: -ms-inline-flexbox;
+    
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    
+}
+.upgrades{
+    margin-top: 50px;
+    text-align: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-margin-after: 5px;
+            margin-block-end: 5px;
+    -webkit-margin-before: 5px;
+            margin-block-start: 5px;
+}
+.item-1{
+    background: rgb(255, 175, 26);
+    margin-top: 50px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 300px;
+    height: 20%;
+    border-style: solid;
+    
+}
+.item{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.button{
+    
+    width: 100px;
+    height: 100px;
+    background-color:rgb(255, 175, 26); 
+}
+.price{
+    margin-top: 8px;
+    height: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 0%;
+}
+.score1{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.item-2{
+    background: rgb(114, 212, 3);
+    margin-top: 50px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 300px;
+    height: 20%;
+    border-style: solid;
+
+}
+
+.right_game{
+    width:-webkit-max-content;
+    width:-moz-max-content;
+    width:max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+.b1{
+    
+    margin-left: 30px;
+    width: 70px;
+    height: 30;
+
+}
+.b1 > button{
+    background-color:rgb(255, 175, 26);
+    border-style:none;
+    font-size: 50px;
+    
+}
+.b1 >button:focus{
+    outline: none;
+}
+.b2 >button:focus{
+    outline: none;
+}
+
+.b3 >button:focus{
+    outline: none;
+}
+
+.b1 > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+.counter{
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+    width: 300px;
+}
+.item-3{
+    background: rgb(231, 12, 77);
+    margin-top: 50px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 300px;
+    height: 60px;
+    border-style: solid;
+    margin-left: 200px;
+    
+
+}
+a.buton1{
+    text-decoration: none;
+    color: black;
+}
+a.buton2{
+    text-decoration: none;
+    color: black;
+}
+.b2 >button > img{
+    width:50px;
+    height:55px;
+}
+.b2 >button{
+    background-color:rgb(114, 212, 3);
+    border-style:none;
+}
+a.buton3{
+    text-decoration: none;
+    color: black;
+}
+.b3 > button >img{
+    width: 50px;
+    height: 50px;
+    
+}
+.b3 > button{
+    margin-left: 20px;
+    background-color:rgb(231, 12, 77);
+    border-style:none;
+    
+    
+}
+.score{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 400px;
+    
+}
+.btn_rosu >img{
+    width:300px;
+    height:300px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 840px){
+    .game_page{
+        display: block;
+    }
+    .score1{
+        margin-left: 0px;
+        margin-top: 19px;
+    }
+    .right_game{
+        width:100%;
+        height: 100%;
+    }
+    .left_game{
+        width: 100%;
+    }
+    .item{
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .score{
+        width: 350px;
+    }
+    #button_img{
+        width: 150px;
+        height: 150px;
+    }
+    .counter{
+        margin: 5px 0px;
+    }
+    .centertelefon{
+        text-align: center;
+    }
+    .score1{
+        text-align: center;
+    }
+    .score{
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;    
+    }
+    a.btn_rosu{
+        text-decoration: none;
+    }
+    .cutie{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .counter{
+        width: auto;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .item-1{
+        margin-left: 0px;
+    }
+    .item-2{
+        margin-left: 0px;
+    }
+    .item-3{
+        margin-left: 0px;
+    }
+    .counter{
+        margin-left: 0px;
+    }
+  }
